@@ -1,0 +1,23 @@
+{
+	"type": "FeatureCollection",
+	"features": {
+		"type": "Feature",
+		"id": 35,
+		"properties": {
+			"color": "blue",
+			"id": 35,
+			"title": "James \u0026 Diegos Party",
+			"description": "Lots of food!",
+			"eventpictures": [{
+				"pictureId": 36,
+				"thumbURL": "http://dinnr.s3.amazonaws.com/pictures/images/000/000/036/thumb/IMG_2093.jpg?1429284563",
+				"mediumURL": "http://dinnr.s3.amazonaws.com/pictures/images/000/000/036/medium/IMG_2093.jpg?1429284563",
+				"originalURL": "http://dinnr.s3.amazonaws.com/pictures/images/000/000/036/original/IMG_2093.jpg?1429284563"
+			}]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.1915538, 51.5431008]
+		}
+	}
+}
