@@ -2,14 +2,14 @@
 Projet fil conducteur sur environ 3 mois en step by step 
 
 ### Référence :
-(https://dinnr.herokuapp.com/)[https://dinnr.herokuapp.com/]
+[https://dinnr.herokuapp.com/]
 
 ### Step1 : copy design du site existant 3jours
 
 Pause de 3 semaines
 
 #### Step2 : Fake JS Data
-(data)[https://github.com/simplonco/js-fake-dinne/data.js]
+[https://github.com/simplonco/js-fake-dinne/data.js]
 Pause de 3 semaines
 
 ### Step3 :  Server  : router pour tes pages
