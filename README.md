@@ -25,14 +25,17 @@ Pause de 3 semaines
 2. une route pour servir le json (ex. GET /api/dinners) qui se trouve dans ce repo
 
    ex.
-      ```
-      router.get('/api/dinners', (req, res) => {
-      
-         const data = require('./ressource/data.json');
-         //...
-         res.json(data);
-      }); 
-      ```
+   
+   
+``` 
+   router.get('/api/dinners', (req, res) => {
+
+      const data = require('./data.json');
+      //...
+      res.json(data);
+   }); 
+
+```
 
 2. une route pour servir le json (ex. GET /api/dinners) qui se trouve dans ce repo
 3. un route qui sert l'index.html de l'app react
