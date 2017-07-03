@@ -15,6 +15,13 @@ Pause de 3 semaines
 ### Step3 :  Server  : router pour tes pages
 
 1. une route pour servir les elements statiques via le middleware static de express (ex. app.use(express.static('public'));
+
+   ex.
+   
+   ```
+   app.use(express.static('client/build/'));
+   ```
+
 2. une route pour servir le json (ex. GET /api/dinners) qui se trouve dans ce repo
 3. un route qui sert l'index.html de l'app react
 
