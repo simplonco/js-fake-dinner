@@ -14,6 +14,16 @@ Pause de 3 semaines
 
 ### Step3 :  Server  : router pour tes pages
 
+1. une route pour servir les elements statiques via le middleware static de express (ex. app.use(express.static('public'));
+2. une route pour servir le json (ex. GET /api/dinners) qui se trouve dans ce repo
+3. un route qui sert l'index.html de l'app react
+  ex. 
+  ``` 
+  app.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/build/index.html'));
+  });
+  ```
+
 ### Step4 :  Server  : router pour ton API (se baser sur le contrat de données de data.js et item.js)
 2 routes à faire :
   - GET all events (…/api/event)
